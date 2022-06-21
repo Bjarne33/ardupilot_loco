@@ -77,7 +77,7 @@ void AP_Beacon_Loco::update(void)
     }
 }
 
-void AP_Beacon_Pozyx::parse_buffer()
+void AP_Beacon_Loco::parse_buffer()
 {
     // check crc
     uint8_t checksum = 0;
